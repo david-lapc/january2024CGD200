@@ -22,7 +22,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 300px);
+  min-height: calc(100vh - 150px);
 }
 .list-container ul {
   list-style-type: none;

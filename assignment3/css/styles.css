@@ -1,8 +1,13 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
+  --color1: #bfbdc1;
+  --color2: rgb(1, 167, 45);
+  --color3: rgb(50, 52, 200);
+  --color4: rgb(200, 50, 110);
 }
 h1 {
   text-align: center;
@@ -26,25 +31,30 @@ main {
   background-color: rgb(141, 141, 255);
   margin-bottom: 10px;
   width: 100%;
-  padding: 20px;
+  padding: 50px;
 }
 
-.tvshow div,
-.movie div {
-  max-width: 300px;
+.tvshow,
+.movie {
+  max-width: 500px;
   margin: auto;
 }
 
 .tvshow img,
 .movie img {
   width: 100%;
+  max-width: 300px;
   height: 300px;
   object-fit: cover;
   object-position: center;
 }
+.tvshow p,
+.movie p {
+  max-width: 300px;
+}
 .movie {
   width: 100%;
   margin-bottom: 10px;
-  background-color: rgb(255, 108, 238);
+  background-color: var(--color1);
   padding: 20px;
 }

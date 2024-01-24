@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  text-align: left;
+  width: 100%;
+  margin: auto;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 50px;
+  column-gap: 50px;
+  text-align: center;
+  padding: 50px;
+}
+.tvshow {
+  background-color: rgb(141, 141, 255);
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+.tvshow div,
+.movie div {
+  max-width: 300px;
+  margin: auto;
+}
+
+.tvshow img,
+.movie img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.movie {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: rgb(255, 108, 238);
+  padding: 20px;
+}
